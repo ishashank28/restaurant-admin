@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ishashank28/restaurant-admin.git/static/css/main.bcf091fb.css",
-    "main.js": "/ishashank28/restaurant-admin.git/static/js/main.b58de852.js",
-    "static/js/453.32493289.chunk.js": "/ishashank28/restaurant-admin.git/static/js/453.32493289.chunk.js",
-    "index.html": "/ishashank28/restaurant-admin.git/index.html",
-    "main.bcf091fb.css.map": "/ishashank28/restaurant-admin.git/static/css/main.bcf091fb.css.map",
-    "main.b58de852.js.map": "/ishashank28/restaurant-admin.git/static/js/main.b58de852.js.map",
-    "453.32493289.chunk.js.map": "/ishashank28/restaurant-admin.git/static/js/453.32493289.chunk.js.map"
+    "main.css": "/ishashank28/restaurant-admin/static/css/main.bcf091fb.css",
+    "main.js": "/ishashank28/restaurant-admin/static/js/main.cc974cf3.js",
+    "static/js/453.32493289.chunk.js": "/ishashank28/restaurant-admin/static/js/453.32493289.chunk.js",
+    "index.html": "/ishashank28/restaurant-admin/index.html",
+    "main.bcf091fb.css.map": "/ishashank28/restaurant-admin/static/css/main.bcf091fb.css.map",
+    "main.cc974cf3.js.map": "/ishashank28/restaurant-admin/static/js/main.cc974cf3.js.map",
+    "453.32493289.chunk.js.map": "/ishashank28/restaurant-admin/static/js/453.32493289.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bcf091fb.css",
-    "static/js/main.b58de852.js"
+    "static/js/main.cc974cf3.js"
   ]
 }
