@@ -1,4 +1,4 @@
-import React, { useCallback, useReducer, useState } from "react";
+import React, { useReducer, useState } from "react";
 import Button from "react-bootstrap/Button";
 import AddResturant from "./addResturant";
 import ResturantList from "./resturantList";
@@ -66,6 +66,9 @@ function reducer(state, action) {
         return { ...state, filteredList: updatedListData };
       }
       return { ...state, filteredList: state.resturentList };
+
+    default:
+      return state;
   }
 }
 
@@ -78,9 +81,9 @@ const Resturant = () => {
     debouncedSearch(value);
   };
 
-  const debouncedSearch = useCallback(
-    debounce((query) => dispatch({ type: "filter", value: query }), 300),
-    []
+  const debouncedSearch = debounce(
+    (query) => dispatch({ type: "filter", value: query }),
+    300
   );
 
   const providerValues = {
